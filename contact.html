@@ -22,36 +22,71 @@
 
     </header>
     <main>
-        <form>
+        <form action="thanks.html">
             <p> Please fill out this information:</p>
+            <p>
             <label for="Firstname">First name: </label>
             <input type="text" name="Firstname" id="firstname">
-           <p> 
-            <label for="Lastname">Last name: </label>
-            <input type="text" name="Lastname" id="Lastname">
             </p>
             <p>
-            <label for="Email">Email: </label>
-            <input type="text" name="Email" id="Email">
+                <label for="Lastname">Last name: </label>
+                <input type="text" name="Lastname" id="Lastname">
             </p>
-            
             <p>
-        
-            
-            
-            
+                <label for="Email">Email: </label>
+                <input type="text" name="Email" id="Email">
             </p>
+
+            <p>
+                <label for="how-you-heard"> How did you hear about us?</label>
+                <select name="how-you-heard" id="how-you-heard" multiple="true">
+                    <option value="email">Email</option>   
+                    <option value="ad">Ad</option>
+                    <option value="friend">Friend</option>  
+                    <option value="colleague">Colleague</option>
+                    <option value="web">Website</option>
+                    <option value="search">Google search</option>
+                </select>
+
+            </p>
+
+            <p>
+
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+            </p>
+
+<div class="radio-buttons">
+    <label for="join-newsletter"> Would you like to join out newsletter?</label>
+    <input type="radio" name="join-newsletter" value="Yes" checked>Yes
+    <input type="radio" name="join-newsletter" value="No">No
             
-        
-        
-        
-        
+            
+            </div>
+            <div class="checkboxs">
+            <label for="type-of-pet"> What type of pet are you interested in?</label>
+            <input type="checkbox" name="type-of-pet" value="Cat">Cat
+            <input type="checkbox" name="type-of-pet" value="Dog">Dog
+
+            <input type="checkbox" name="type-of-pet" value="Other">Other
+                
+            <p>
+                <label></label>
+                <input type="submit" value="submit">
+                <input type="Reset" value="Reset">
+                </p>
+            
+            
+            
+            
+            </div>
+  
         </form>
-        
-        
-        
-        
-        
+
+
+
+
+
     </main>
 
     <footer>

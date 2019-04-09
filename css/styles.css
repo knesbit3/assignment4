@@ -76,3 +76,20 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+form p {
+    display: flex;
+    margin-bottom: 1em;
+    
+}
+form label {
+    flex-basis:33%;
+}
+Form input,textarea, select {*/
+    flex:1
+    margin: 0 em;
+    border-radius: 5px
+}
+form select {
+    text-align: center;
+}
