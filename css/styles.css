@@ -93,3 +93,12 @@ Form input,textarea, select {*/
 form select {
     text-align: center;
 }
+.thanks{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-size: 3em;
+    
+}
