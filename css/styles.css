@@ -54,7 +54,7 @@ footer {
     header,
     main,
     footer {
-        flex-direction: column
+        flex-direction: column;
     }
 
     h2 {
@@ -69,7 +69,7 @@ h1 {
 
     background-color: lemonchiffon;
     opacity: 0.9;
-    background-image: linear-gradient( white, pink)
+    background-image: linear-gradient( white, pink);
 }
 
 main {
@@ -80,25 +80,35 @@ main {
 form p {
     display: flex;
     margin-bottom: 1em;
-    
+
 }
+
 form label {
-    flex-basis:33%;
+    flex-basis: 33%;
 }
-Form input,textarea, select {*/
-    flex:1
-    margin: 0 em;
-    border-radius: 5px
+
+Form input,
+textarea,
+select {
+    flex: 1;
+/*    margin: 10 ;*/
+    border-radius: 5px;
 }
+
 form select {
     text-align: center;
 }
-.thanks{
-    
-    display:flex;
+
+.thanks {
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height: 100vh;
     font-size: 3em;
-    
+
 }
+
+.checkboxes {}
+
+.radio-buttons {}
